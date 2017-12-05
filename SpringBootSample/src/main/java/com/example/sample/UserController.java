@@ -35,11 +35,6 @@ public class UserController {
 	UserRepository repository;
 	
 	
-	@RequestMapping("/") // URL‚ÌƒpƒX‚ÌŽw’è
-    public String index() {
-        return "Hello Spring Boot!";
-    }
-	
 	
 	
 	//“o˜^
