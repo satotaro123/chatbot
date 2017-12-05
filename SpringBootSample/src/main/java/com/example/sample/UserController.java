@@ -35,8 +35,14 @@ public class UserController {
 	UserRepository repository;
 	
 	
+	@RequestMapping("/") // URL‚ÌƒpƒX‚ÌŽw’è
+    public String index() {
+        return "Hello Spring Boot!";
+    }
 	
-	//ç™»éŒ²
+	
+	
+	//“o˜^
 	@GetMapping
     public String signup(Model model) {
         model.addAttribute("userForm", new UserForm());
